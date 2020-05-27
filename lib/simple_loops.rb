@@ -27,7 +27,7 @@ end
 def return_string_array(array)
   new_array = []
   for item in array do
-    item.to_s
+    item = item.to_s
     new_array.push(item)
   end
   return new_array
