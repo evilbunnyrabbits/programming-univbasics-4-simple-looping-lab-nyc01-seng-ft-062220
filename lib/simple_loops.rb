@@ -25,11 +25,10 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  index = 0
-  while index <= array.length do
-    array[index].to_s
-    array[index]
-    index += 1
+  new_array = []
+  for item in array do
+    item.to_s
+    new_array.push(item)
   end
-  return array
+  return new_array
 end
