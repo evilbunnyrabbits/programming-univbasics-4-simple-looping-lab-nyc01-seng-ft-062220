@@ -20,6 +20,7 @@ def output_array(array)
   index = 0
   while index <= array.length do
     puts array[index]
+    index += 1
   end
 end
 
@@ -27,5 +28,8 @@ def return_string_array(array)
   index = 0
   while index <= array.length do
     array[index].to_s
+    array[index]
+    index += 1
   end
+  return array
 end
