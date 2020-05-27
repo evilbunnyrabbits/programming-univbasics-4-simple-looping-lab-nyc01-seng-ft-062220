@@ -7,4 +7,7 @@ def loop_message_n_times(n)
   
 end
 
+def output_array()
+end
+
 
